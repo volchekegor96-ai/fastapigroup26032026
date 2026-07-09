@@ -3,7 +3,7 @@ from pymongo.asynchronous import settings
 
 
 class Settings(BaseSettings):
-    URL: str
+    URI: str
 
     model_config = SettingsConfigDict(
         env_file='.env',
